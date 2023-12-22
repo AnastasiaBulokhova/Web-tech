@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(173, 236, 215);
+}
+h1 {
+    color: rgb(237, 108, 189);
+}
+h2 {
+    color: rgb(10, 147, 74);
+}
+a {
+    color: rgb(255, 152, 25);
+}
+a:hover {
+    color: #154088;
+}
+img {
+    width: 400px;
+    border: rgb(210, 30, 96) 5px solid;
+    margin-left: 50px;
+}
+.big_text {
+    font-size: 1.5rem;
+}
+.super_text {
+    color: rgb(218, 55, 190);
+}
+ul {
+    list-style-type: square;
+}
+@font-face {
+    font-family: 'Teddy Bear';
+    src: url('teddy-bear.ttf');
+}
+h1, h2 {
+    font-family: 'Teddy Bear';
+}
